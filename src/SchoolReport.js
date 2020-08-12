@@ -5,9 +5,11 @@ class SchoolReport {
   results(string){
     if(string === "green"){
       return "green: 1"
-    } else {
+    } else if(string === "amber"){
       return "amber: 1"
-    } 
+    } else {
+      return "red: 1"
+    }
   }
 }
 

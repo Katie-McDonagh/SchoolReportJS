@@ -2,8 +2,12 @@ class SchoolReport {
   constructor(){
   }
 
-  results(){
-    return "green: 1"
+  results(string){
+    if(string === "green"){
+      return "green: 1"
+    } else {
+      return "amber: 1"
+    }
   }
 }
 

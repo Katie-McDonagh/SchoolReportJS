@@ -7,7 +7,7 @@ class SchoolReport {
       return "green: 1"
     } else {
       return "amber: 1"
-    }
+    } 
   }
 }
 

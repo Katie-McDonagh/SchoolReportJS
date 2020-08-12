@@ -1,7 +1,5 @@
-class schoolReport {
+class SchoolReport {
   constructor(){
-
   }
-  
 }
 

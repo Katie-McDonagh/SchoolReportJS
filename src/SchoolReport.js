@@ -6,8 +6,8 @@ class SchoolReport {
     let string_array = string.split(" ")
     if(string_array.includes("green")){
       return `green: ${string_array.length}` 
-    } else if(string === "amber"){
-      return "amber: 1"
+    } else if(string_array.includes("amber")){
+      return `amber: ${string_array.length}`
     } else {
       return "red: 1"
     }

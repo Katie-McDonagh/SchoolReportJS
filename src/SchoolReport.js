@@ -1,11 +1,21 @@
 class SchoolReport {
   constructor(){
+    this.greenScore
+  }
+
+  grade_count(string){
+    let stringArray = string.split(" ")
+    for (var j = 0; j < myArray.length; j++){
+      if(stringArray.includes("green")){
+        greenScore++
+      }
+      
+      }
   }
 
   results(string){
-    let string_array = string.split(" ")
-    if(string_array.includes("green")){
-      return `green: ${string_array.length}` 
+    if(stringArray.includes("green")){
+      return `green: ${greenScore}` 
     } else if(string_array.includes("amber")){
       return `amber: ${string_array.length}`
     } else if(string_array.includes("red")) {

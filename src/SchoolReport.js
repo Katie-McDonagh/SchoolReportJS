@@ -8,8 +8,8 @@ class SchoolReport {
       return `green: ${string_array.length}` 
     } else if(string_array.includes("amber")){
       return `amber: ${string_array.length}`
-    } else {
-      return "red: 1"
+    } else if(string_array.includes("red")) {
+      return `red: ${string_array.length}`
     }
   }
 }

@@ -19,4 +19,8 @@ describe("schoolReport", function(){
     it ("returns 'green: 2' when given 'green, green'", function(){
       expect(schoolReport.results("green, green")).toBe("green: 2")
     })
+
+    it ("returns 'amber: 2' when given 2 ambers", function(){
+      expect(schoolReport.results("amber, amber")).toBe("amber: 2")
+    })
 })
